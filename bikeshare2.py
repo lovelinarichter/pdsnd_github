@@ -10,9 +10,9 @@ def get_filters():
     """
     Asks user to specify a city, month, and day to analyze
     Returns:
-        (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
+        (string name) city - name of the city to analyze
+        (string name) month - name of the month to filter by, or "all" to apply no month filter
+        (string name) day - name of the day of week to filter by, or "all" to apply no day filter
     """
 
     print('\nHello! Let\'s explore some US bikeshare data!')
@@ -52,9 +52,9 @@ def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
     Args:
-        (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
+        (string name) city - name of the city to analyze
+        (string name) month - name of the month to filter by, or "all" to apply no month filter
+        (string name) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
@@ -186,7 +186,12 @@ def user_stats(df):
 
 def display_raw_data(df):
     """
+<<<<<<< HEAD
     Prompt the user if they want to see 5 lines of raw data. Display that data if the answer is 'y'
+=======
+    Prompt the user if the user want to see 5 lines of raw data of the selected city
+    Display that data if the answer is 'y'
+>>>>>>> 6434b693f02ab0a624c1a91f2525d0ad96cf27f7
     and continue these prompts and displays until the user says 'n'
     """
     show_rows = 5

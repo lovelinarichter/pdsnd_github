@@ -186,7 +186,7 @@ def user_stats(df):
 
 def display_raw_data(df):
     """
-    Prompt the user if they want to see 5 lines of raw data
+    Prompt the user if the user want to see 5 lines of raw data of the selected city
     Display that data if the answer is 'y'
     and continue these prompts and displays until the user says 'n'
     """

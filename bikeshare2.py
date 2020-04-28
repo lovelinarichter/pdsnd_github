@@ -16,7 +16,7 @@ def get_filters():
     """
 
     print('\nHello! Let\'s explore some US bikeshare data!')
-    #get user input for city (chicago, new york city, washington)
+    #get user input for city (chicago, new york city, washington) in lower or uppercase
 
     while True:
       city = input("\nWhich city would you like to filter by? New York City, Chicago, or Washington?\n")
@@ -26,7 +26,7 @@ def get_filters():
       else:
         break
 
-    #get user input for month (january, february, march, april, may , june, or all)
+    #get user input for month (january, february, march, april, may , june, or all) in lower or uppercase
     while True:
       month = input("\nWhich month would you like to filter by? January, February, March, April, May, June, or type 'all'?\n")
       if month.lower() not in ('january', 'jebruary', 'march', 'april', 'may', 'june', 'all'):
@@ -35,7 +35,7 @@ def get_filters():
       else:
         break
 
-    #get user input for day of week (all, monday, tuesday, wednesday, thursday, friday, saturday, sunday)
+    #get user input for day of week (all, monday, tuesday, wednesday, thursday, friday, saturday, sunday) in lower or uppercase
     while True:
       day = input("\n Enter the day: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or type 'all'.\n")
       if day.lower() not in ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all'):

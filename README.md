@@ -8,9 +8,6 @@ Udacity Project - Introduction to Version Control
 This project is to simulate a realistic workflow to refactor previous BikeShare project using Git.
 
 ### Files used
-chicago.csv<br>
-new_york_city.csv<br>
-washington.csv<br>
 bikeshare2.py<br>
 .gitignore<br>
 Git_Commands_Documentation.PDF - documentation to complete in local and remote repository.
